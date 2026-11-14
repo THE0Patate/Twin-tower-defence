@@ -9,4 +9,4 @@ Vous gagnez 10 pour chaque frame que vous défendez les tours.
 
 Bon jeu.
 
-PS. Pour l'application web et Pandas, utilisez le fichier Python original.
+PS. Pour l'application web et Pandas, utilisez le fichier Python original. Aussi, note que il faut que vous ayer installer l'exention python, pip et que voous runer pip install -r  REQUIREMENTS.TXT
