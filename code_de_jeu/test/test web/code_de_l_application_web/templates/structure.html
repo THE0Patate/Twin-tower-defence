@@ -1,0 +1,21 @@
+<p>Statistiques globales</p>
+<table>
+    <tr>
+        <td><b>Classement</b></td>
+        <td><b>Score</b></td>
+        <td><b>Nom</b></td>
+        <td><b>Prenom</b></td>
+        <td><b>Date</b></td>
+        <td><b>Actions</b></td>
+    </tr>
+{% for joueur in liste_statistiques %}
+    <tr>
+        {% for stat in joueur %}
+            <td>{{stat}}</td>
+        {% endfor %}
+        <td>
+            <a href="./modifié/{{joueur[0]}}">Modifier</a> - <a href="./retirer/{{joueur[0]}}">Supprimer</a>
+        </td>
+    </tr>
+{% endfor %}
+</table>
